@@ -1,0 +1,22 @@
+.login {
+  display: flex;
+  justify-content: center;
+}
+.login__container {
+  display: flex;
+  height: 50vh;
+
+  flex-direction: column;
+  justify-content: center;
+}
+.login__container > img {
+  height: 200px;
+  object-fit: contain;
+}
+.login__button {
+  margin-top: 10vh !important;
+  text-transform: inherit !important;
+  background-color: #fe3c72 !important;
+  color: #424242 !important;
+  font-weight: 700 !important;
+}

@@ -1,0 +1,32 @@
+.bottomButton {
+  display: flex;
+  width: 100%;
+  bottom: 2vh;
+  justify-content: space-evenly;
+  position: fixed;
+}
+
+.bottomButton > .MuiIconButton-root {
+  background-color: #fff;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+.bottomButton__repeat {
+  /* padding: 3vw !important; */
+  color: #f5b748 !important;
+}
+.bottomButton__left {
+  /* padding: 3vw !important; */
+  color: #ec5e6f !important;
+}
+.bottomButton__star {
+  /* padding: 3vw !important; */
+  color: #62b4f9 !important;
+}
+.bottomButton__right {
+  /* padding: 3vw !important; */
+  color: #76e2b3 !important;
+}
+.bottomButton__lightning {
+  /* padding: 3vw !important; */
+  color: #915dd1 !important;
+}

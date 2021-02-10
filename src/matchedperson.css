@@ -1,0 +1,17 @@
+.matchedPerson {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.matchedPerson__person {
+  margin-left: 20px;
+  flex: 1;
+}
+.matchedPerson__person > p {
+  color: #424242;
+}
+.matchedPerson > .MuiIconButton-root:hover {
+  color: #fe3c72;
+  background-color: #424242;
+  transition: 0.3s all ease-in-out;
+}

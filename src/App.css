@@ -1,0 +1,6 @@
+.app {
+  height: 100vh;
+}
+.app::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #fafafa;
+}
+.header a > img {
+  height: 40px;
+  object-fit: contain;
+}
+.header__icon {
+  align-items: center;
+  padding: 20px;
+}
